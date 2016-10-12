@@ -17,9 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let t = Interval()
-        t.start = Date(timeIntervalSince1970: 0)
-        print(t.length())
+        print(Realm.Configuration().fileURL)        
         return true
     }
 

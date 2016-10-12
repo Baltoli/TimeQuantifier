@@ -19,6 +19,8 @@
 		F7741FBD1DAE2CE400DAE003 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7741FBA1DAE2CE400DAE003 /* RealmSwift.framework */; };
 		F7741FBE1DAE2CE400DAE003 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7741FBA1DAE2CE400DAE003 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F7741FC51DAE691500DAE003 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FC41DAE691500DAE003 /* Interval.swift */; };
+		F7741FC71DAE753F00DAE003 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FC61DAE753F00DAE003 /* Session.swift */; };
+		F7741FC91DAE75AB00DAE003 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FC81DAE75AB00DAE003 /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		F7741FB91DAE2CE400DAE003 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		F7741FBA1DAE2CE400DAE003 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		F7741FC41DAE691500DAE003 /* Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
+		F7741FC61DAE753F00DAE003 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		F7741FC81DAE75AB00DAE003 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				F7741FC41DAE691500DAE003 /* Interval.swift */,
+				F7741FC61DAE753F00DAE003 /* Session.swift */,
+				F7741FC81DAE75AB00DAE003 /* Activity.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -324,6 +330,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7741FC91DAE75AB00DAE003 /* Activity.swift in Sources */,
+				F7741FC71DAE753F00DAE003 /* Session.swift in Sources */,
 				F7741F8E1DAE2CC400DAE003 /* ViewController.swift in Sources */,
 				F7741FC51DAE691500DAE003 /* Interval.swift in Sources */,
 				F7741F8C1DAE2CC400DAE003 /* AppDelegate.swift in Sources */,

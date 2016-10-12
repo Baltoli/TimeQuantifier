@@ -10,20 +10,23 @@ import Foundation
 import RealmSwift
 
 class Interval : Object {
-    enum Length {
-        case bounded(TimeInterval)
-        case unbounded
-    }
-    
-    dynamic var start : Date?
+dynamic var start : Date?
     dynamic var end : Date?
     
-    func length() -> Length {
-        guard  let start = start, let end = end else {
-            return .unbounded
+    func length() -> TimeInterval? {
+        guard let start = start, let end = end else {
+            return nil
         }
         
         let interval = end.timeIntervalSince(start)
-        return .bounded(interval)
+        return interval
+    }
+    
+    func isValid() -> Bool {
+        guard  let start = start, let end = end else {
+            return false
+        }
+
+        return end > start
     }
 }
