@@ -21,6 +21,10 @@
 		F7741FC51DAE691500DAE003 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FC41DAE691500DAE003 /* Interval.swift */; };
 		F7741FC71DAE753F00DAE003 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FC61DAE753F00DAE003 /* Session.swift */; };
 		F7741FC91DAE75AB00DAE003 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FC81DAE75AB00DAE003 /* Activity.swift */; };
+		F7741FCC1DAE7D5B00DAE003 /* StartStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FCB1DAE7D5B00DAE003 /* StartStopView.swift */; };
+		F7741FCE1DAE7D7800DAE003 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FCD1DAE7D7800DAE003 /* TimerView.swift */; };
+		F7741FD01DAE7DD800DAE003 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FCF1DAE7DD800DAE003 /* ActivityView.swift */; };
+		F7741FD21DAE7DEB00DAE003 /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FD11DAE7DEB00DAE003 /* PauseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,10 @@
 		F7741FC41DAE691500DAE003 /* Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
 		F7741FC61DAE753F00DAE003 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		F7741FC81DAE75AB00DAE003 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		F7741FCB1DAE7D5B00DAE003 /* StartStopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartStopView.swift; sourceTree = "<group>"; };
+		F7741FCD1DAE7D7800DAE003 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		F7741FCF1DAE7DD800DAE003 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		F7741FD11DAE7DEB00DAE003 /* PauseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 		F7741F8A1DAE2CC400DAE003 /* TimeQuantifier */ = {
 			isa = PBXGroup;
 			children = (
+				F7741FCA1DAE7BE900DAE003 /* Views */,
 				F7741FC31DAE68FD00DAE003 /* Models */,
 				F7741F8B1DAE2CC400DAE003 /* AppDelegate.swift */,
 				F7741F8D1DAE2CC400DAE003 /* ViewController.swift */,
@@ -173,6 +182,17 @@
 				F7741FC81DAE75AB00DAE003 /* Activity.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F7741FCA1DAE7BE900DAE003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7741FCB1DAE7D5B00DAE003 /* StartStopView.swift */,
+				F7741FCD1DAE7D7800DAE003 /* TimerView.swift */,
+				F7741FCF1DAE7DD800DAE003 /* ActivityView.swift */,
+				F7741FD11DAE7DEB00DAE003 /* PauseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,9 +350,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7741FCE1DAE7D7800DAE003 /* TimerView.swift in Sources */,
 				F7741FC91DAE75AB00DAE003 /* Activity.swift in Sources */,
+				F7741FCC1DAE7D5B00DAE003 /* StartStopView.swift in Sources */,
+				F7741FD21DAE7DEB00DAE003 /* PauseView.swift in Sources */,
 				F7741FC71DAE753F00DAE003 /* Session.swift in Sources */,
 				F7741F8E1DAE2CC400DAE003 /* ViewController.swift in Sources */,
+				F7741FD01DAE7DD800DAE003 /* ActivityView.swift in Sources */,
 				F7741FC51DAE691500DAE003 /* Interval.swift in Sources */,
 				F7741F8C1DAE2CC400DAE003 /* AppDelegate.swift in Sources */,
 			);
