@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7741F8C1DAE2CC400DAE003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741F8B1DAE2CC400DAE003 /* AppDelegate.swift */; };
+		F7741F8E1DAE2CC400DAE003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741F8D1DAE2CC400DAE003 /* ViewController.swift */; };
+		F7741F911DAE2CC400DAE003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7741F8F1DAE2CC400DAE003 /* Main.storyboard */; };
+		F7741F931DAE2CC400DAE003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7741F921DAE2CC400DAE003 /* Assets.xcassets */; };
+		F7741F961DAE2CC400DAE003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7741F941DAE2CC400DAE003 /* LaunchScreen.storyboard */; };
+		F7741FA11DAE2CC400DAE003 /* TimeQuantifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FA01DAE2CC400DAE003 /* TimeQuantifierTests.swift */; };
+		F7741FAC1DAE2CC400DAE003 /* TimeQuantifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FAB1DAE2CC400DAE003 /* TimeQuantifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7741F9D1DAE2CC400DAE003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7741F801DAE2CC300DAE003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7741F871DAE2CC300DAE003;
+			remoteInfo = TimeQuantifier;
+		};
+		F7741FA81DAE2CC400DAE003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7741F801DAE2CC300DAE003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7741F871DAE2CC300DAE003;
+			remoteInfo = TimeQuantifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7741F881DAE2CC400DAE003 /* TimeQuantifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeQuantifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7741F8B1DAE2CC400DAE003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7741F8D1DAE2CC400DAE003 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7741F901DAE2CC400DAE003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7741F921DAE2CC400DAE003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7741F951DAE2CC400DAE003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7741F971DAE2CC400DAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7741F9C1DAE2CC400DAE003 /* TimeQuantifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeQuantifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7741FA01DAE2CC400DAE003 /* TimeQuantifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeQuantifierTests.swift; sourceTree = "<group>"; };
+		F7741FA21DAE2CC400DAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7741FA71DAE2CC400DAE003 /* TimeQuantifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeQuantifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7741FAB1DAE2CC400DAE003 /* TimeQuantifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeQuantifierUITests.swift; sourceTree = "<group>"; };
+		F7741FAD1DAE2CC400DAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7741F851DAE2CC300DAE003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7741F991DAE2CC400DAE003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7741FA41DAE2CC400DAE003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7741F7F1DAE2CC300DAE003 = {
+			isa = PBXGroup;
+			children = (
+				F7741F8A1DAE2CC400DAE003 /* TimeQuantifier */,
+				F7741F9F1DAE2CC400DAE003 /* TimeQuantifierTests */,
+				F7741FAA1DAE2CC400DAE003 /* TimeQuantifierUITests */,
+				F7741F891DAE2CC400DAE003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7741F891DAE2CC400DAE003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7741F881DAE2CC400DAE003 /* TimeQuantifier.app */,
+				F7741F9C1DAE2CC400DAE003 /* TimeQuantifierTests.xctest */,
+				F7741FA71DAE2CC400DAE003 /* TimeQuantifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7741F8A1DAE2CC400DAE003 /* TimeQuantifier */ = {
+			isa = PBXGroup;
+			children = (
+				F7741F8B1DAE2CC400DAE003 /* AppDelegate.swift */,
+				F7741F8D1DAE2CC400DAE003 /* ViewController.swift */,
+				F7741F8F1DAE2CC400DAE003 /* Main.storyboard */,
+				F7741F921DAE2CC400DAE003 /* Assets.xcassets */,
+				F7741F941DAE2CC400DAE003 /* LaunchScreen.storyboard */,
+				F7741F971DAE2CC400DAE003 /* Info.plist */,
+			);
+			path = TimeQuantifier;
+			sourceTree = "<group>";
+		};
+		F7741F9F1DAE2CC400DAE003 /* TimeQuantifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7741FA01DAE2CC400DAE003 /* TimeQuantifierTests.swift */,
+				F7741FA21DAE2CC400DAE003 /* Info.plist */,
+			);
+			path = TimeQuantifierTests;
+			sourceTree = "<group>";
+		};
+		F7741FAA1DAE2CC400DAE003 /* TimeQuantifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7741FAB1DAE2CC400DAE003 /* TimeQuantifierUITests.swift */,
+				F7741FAD1DAE2CC400DAE003 /* Info.plist */,
+			);
+			path = TimeQuantifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7741F871DAE2CC300DAE003 /* TimeQuantifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7741FB01DAE2CC400DAE003 /* Build configuration list for PBXNativeTarget "TimeQuantifier" */;
+			buildPhases = (
+				F7741F841DAE2CC300DAE003 /* Sources */,
+				F7741F851DAE2CC300DAE003 /* Frameworks */,
+				F7741F861DAE2CC300DAE003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeQuantifier;
+			productName = TimeQuantifier;
+			productReference = F7741F881DAE2CC400DAE003 /* TimeQuantifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7741F9B1DAE2CC400DAE003 /* TimeQuantifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7741FB31DAE2CC400DAE003 /* Build configuration list for PBXNativeTarget "TimeQuantifierTests" */;
+			buildPhases = (
+				F7741F981DAE2CC400DAE003 /* Sources */,
+				F7741F991DAE2CC400DAE003 /* Frameworks */,
+				F7741F9A1DAE2CC400DAE003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7741F9E1DAE2CC400DAE003 /* PBXTargetDependency */,
+			);
+			name = TimeQuantifierTests;
+			productName = TimeQuantifierTests;
+			productReference = F7741F9C1DAE2CC400DAE003 /* TimeQuantifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7741FA61DAE2CC400DAE003 /* TimeQuantifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7741FB61DAE2CC400DAE003 /* Build configuration list for PBXNativeTarget "TimeQuantifierUITests" */;
+			buildPhases = (
+				F7741FA31DAE2CC400DAE003 /* Sources */,
+				F7741FA41DAE2CC400DAE003 /* Frameworks */,
+				F7741FA51DAE2CC400DAE003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7741FA91DAE2CC400DAE003 /* PBXTargetDependency */,
+			);
+			name = TimeQuantifierUITests;
+			productName = TimeQuantifierUITests;
+			productReference = F7741FA71DAE2CC400DAE003 /* TimeQuantifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7741F801DAE2CC300DAE003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Bruce Collie";
+				TargetAttributes = {
+					F7741F871DAE2CC300DAE003 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3K36C5757S;
+						ProvisioningStyle = Automatic;
+					};
+					F7741F9B1DAE2CC400DAE003 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3K36C5757S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7741F871DAE2CC300DAE003;
+					};
+					F7741FA61DAE2CC400DAE003 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3K36C5757S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7741F871DAE2CC300DAE003;
+					};
+				};
+			};
+			buildConfigurationList = F7741F831DAE2CC300DAE003 /* Build configuration list for PBXProject "TimeQuantifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7741F7F1DAE2CC300DAE003;
+			productRefGroup = F7741F891DAE2CC400DAE003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7741F871DAE2CC300DAE003 /* TimeQuantifier */,
+				F7741F9B1DAE2CC400DAE003 /* TimeQuantifierTests */,
+				F7741FA61DAE2CC400DAE003 /* TimeQuantifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7741F861DAE2CC300DAE003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7741F961DAE2CC400DAE003 /* LaunchScreen.storyboard in Resources */,
+				F7741F931DAE2CC400DAE003 /* Assets.xcassets in Resources */,
+				F7741F911DAE2CC400DAE003 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7741F9A1DAE2CC400DAE003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7741FA51DAE2CC400DAE003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7741F841DAE2CC300DAE003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7741F8E1DAE2CC400DAE003 /* ViewController.swift in Sources */,
+				F7741F8C1DAE2CC400DAE003 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7741F981DAE2CC400DAE003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7741FA11DAE2CC400DAE003 /* TimeQuantifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7741FA31DAE2CC400DAE003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7741FAC1DAE2CC400DAE003 /* TimeQuantifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7741F9E1DAE2CC400DAE003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7741F871DAE2CC300DAE003 /* TimeQuantifier */;
+			targetProxy = F7741F9D1DAE2CC400DAE003 /* PBXContainerItemProxy */;
+		};
+		F7741FA91DAE2CC400DAE003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7741F871DAE2CC300DAE003 /* TimeQuantifier */;
+			targetProxy = F7741FA81DAE2CC400DAE003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7741F8F1DAE2CC400DAE003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7741F901DAE2CC400DAE003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7741F941DAE2CC400DAE003 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7741F951DAE2CC400DAE003 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7741FAE1DAE2CC400DAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7741FAF1DAE2CC400DAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7741FB11DAE2CC400DAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3K36C5757S;
+				INFOPLIST_FILE = TimeQuantifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F7741FB21DAE2CC400DAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3K36C5757S;
+				INFOPLIST_FILE = TimeQuantifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F7741FB41DAE2CC400DAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3K36C5757S;
+				INFOPLIST_FILE = TimeQuantifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeQuantifier.app/TimeQuantifier";
+			};
+			name = Debug;
+		};
+		F7741FB51DAE2CC400DAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3K36C5757S;
+				INFOPLIST_FILE = TimeQuantifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeQuantifier.app/TimeQuantifier";
+			};
+			name = Release;
+		};
+		F7741FB71DAE2CC400DAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3K36C5757S;
+				INFOPLIST_FILE = TimeQuantifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimeQuantifier;
+			};
+			name = Debug;
+		};
+		F7741FB81DAE2CC400DAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3K36C5757S;
+				INFOPLIST_FILE = TimeQuantifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimeQuantifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7741F831DAE2CC300DAE003 /* Build configuration list for PBXProject "TimeQuantifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7741FAE1DAE2CC400DAE003 /* Debug */,
+				F7741FAF1DAE2CC400DAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7741FB01DAE2CC400DAE003 /* Build configuration list for PBXNativeTarget "TimeQuantifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7741FB11DAE2CC400DAE003 /* Debug */,
+				F7741FB21DAE2CC400DAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7741FB31DAE2CC400DAE003 /* Build configuration list for PBXNativeTarget "TimeQuantifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7741FB41DAE2CC400DAE003 /* Debug */,
+				F7741FB51DAE2CC400DAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7741FB61DAE2CC400DAE003 /* Build configuration list for PBXNativeTarget "TimeQuantifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7741FB71DAE2CC400DAE003 /* Debug */,
+				F7741FB81DAE2CC400DAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7741F801DAE2CC300DAE003 /* Project object */;
+}
