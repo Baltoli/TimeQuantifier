@@ -1,0 +1,18 @@
+//
+//  Interval.swift
+//  TimeQuantifier
+//
+//  Created by Bruce Collie on 12/10/2016.
+//  Copyright © 2016 Bruce Collie. All rights reserved.
+//
+
+import Foundation
+import RealmSwift
+
+class Interval : Object {
+    enum Length {
+        case finite
+    }
+    dynamic var start : NSDate?
+    dynamic var end : NSDate?
+}
