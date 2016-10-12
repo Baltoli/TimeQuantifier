@@ -14,6 +14,11 @@
 		F7741F961DAE2CC400DAE003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7741F941DAE2CC400DAE003 /* LaunchScreen.storyboard */; };
 		F7741FA11DAE2CC400DAE003 /* TimeQuantifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FA01DAE2CC400DAE003 /* TimeQuantifierTests.swift */; };
 		F7741FAC1DAE2CC400DAE003 /* TimeQuantifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FAB1DAE2CC400DAE003 /* TimeQuantifierUITests.swift */; };
+		F7741FBB1DAE2CE400DAE003 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7741FB91DAE2CE400DAE003 /* Realm.framework */; };
+		F7741FBC1DAE2CE400DAE003 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7741FB91DAE2CE400DAE003 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7741FBD1DAE2CE400DAE003 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7741FBA1DAE2CE400DAE003 /* RealmSwift.framework */; };
+		F7741FBE1DAE2CE400DAE003 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7741FBA1DAE2CE400DAE003 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7741FC51DAE691500DAE003 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7741FC41DAE691500DAE003 /* Interval.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F7741FBF1DAE2CE400DAE003 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7741FBE1DAE2CE400DAE003 /* RealmSwift.framework in Embed Frameworks */,
+				F7741FBC1DAE2CE400DAE003 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F7741F881DAE2CC400DAE003 /* TimeQuantifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeQuantifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7741F8B1DAE2CC400DAE003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +67,9 @@
 		F7741FA71DAE2CC400DAE003 /* TimeQuantifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeQuantifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7741FAB1DAE2CC400DAE003 /* TimeQuantifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeQuantifierUITests.swift; sourceTree = "<group>"; };
 		F7741FAD1DAE2CC400DAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7741FB91DAE2CE400DAE003 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		F7741FBA1DAE2CE400DAE003 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		F7741FC41DAE691500DAE003 /* Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7741FBD1DAE2CE400DAE003 /* RealmSwift.framework in Frameworks */,
+				F7741FBB1DAE2CE400DAE003 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +102,7 @@
 		F7741F7F1DAE2CC300DAE003 = {
 			isa = PBXGroup;
 			children = (
+				F7741FC11DAE2DA300DAE003 /* Frameworks */,
 				F7741F8A1DAE2CC400DAE003 /* TimeQuantifier */,
 				F7741F9F1DAE2CC400DAE003 /* TimeQuantifierTests */,
 				F7741FAA1DAE2CC400DAE003 /* TimeQuantifierUITests */,
@@ -97,6 +123,7 @@
 		F7741F8A1DAE2CC400DAE003 /* TimeQuantifier */ = {
 			isa = PBXGroup;
 			children = (
+				F7741FC31DAE68FD00DAE003 /* Models */,
 				F7741F8B1DAE2CC400DAE003 /* AppDelegate.swift */,
 				F7741F8D1DAE2CC400DAE003 /* ViewController.swift */,
 				F7741F8F1DAE2CC400DAE003 /* Main.storyboard */,
@@ -125,6 +152,23 @@
 			path = TimeQuantifierUITests;
 			sourceTree = "<group>";
 		};
+		F7741FC11DAE2DA300DAE003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7741FB91DAE2CE400DAE003 /* Realm.framework */,
+				F7741FBA1DAE2CE400DAE003 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7741FC31DAE68FD00DAE003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7741FC41DAE691500DAE003 /* Interval.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +179,8 @@
 				F7741F841DAE2CC300DAE003 /* Sources */,
 				F7741F851DAE2CC300DAE003 /* Frameworks */,
 				F7741F861DAE2CC300DAE003 /* Resources */,
+				F7741FBF1DAE2CE400DAE003 /* Embed Frameworks */,
+				F7741FC01DAE2D1500DAE003 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -257,12 +303,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F7741FC01DAE2D1500DAE003 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7741F841DAE2CC300DAE003 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F7741F8E1DAE2CC400DAE003 /* ViewController.swift in Sources */,
+				F7741FC51DAE691500DAE003 /* Interval.swift in Sources */,
 				F7741F8C1DAE2CC400DAE003 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +479,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3K36C5757S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TimeQuantifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifier;
@@ -429,6 +496,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3K36C5757S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TimeQuantifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifier;
@@ -443,6 +514,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3K36C5757S;
+				FRAMEWORK_SEARCH_PATHS = /Users/brucecollie/Documents/Development/TimeQuantifier/;
 				INFOPLIST_FILE = TimeQuantifierTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifierTests;
@@ -458,6 +530,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3K36C5757S;
+				FRAMEWORK_SEARCH_PATHS = /Users/brucecollie/Documents/Development/TimeQuantifier/;
 				INFOPLIST_FILE = TimeQuantifierTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.cam.bsc28.TimeQuantifierTests;

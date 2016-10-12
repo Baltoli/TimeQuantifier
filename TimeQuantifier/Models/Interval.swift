@@ -11,8 +11,19 @@ import RealmSwift
 
 class Interval : Object {
     enum Length {
-        case finite
+        case bounded(TimeInterval)
+        case unbounded
     }
-    dynamic var start : NSDate?
-    dynamic var end : NSDate?
+    
+    dynamic var start : Date?
+    dynamic var end : Date?
+    
+    func length() -> Length {
+        guard  let start = start, let end = end else {
+            return .unbounded
+        }
+        
+        let interval = end.timeIntervalSince(start)
+        return .bounded(interval)
+    }
 }
